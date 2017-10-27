@@ -1,0 +1,37 @@
+import React from "react";
+import PropTypes from 'prop-types';
+
+class C_name extends React.Component {
+    constructor(props){
+        super();
+        this.state ={
+            // var_name : value
+        }
+    }
+
+
+    render () {
+        return (
+        
+            <div>
+                
+            </div>
+            
+        );
+    } 
+}
+
+
+
+
+/* PropTypes */
+C_name.propTypes = {
+    // varname: PropTypes.varType
+  };
+
+/* Default values */
+C_name.defaultProps = {
+    // var_name: value
+};
+
+module.exports =  C_name
